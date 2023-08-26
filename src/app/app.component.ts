@@ -33,6 +33,7 @@ export class AppComponent {
     cm: { m: 0.01, km: 0.00001 },
     m: { cm: 100, km: 0.001 },
     km: { cm: 100000, m: 1000 },
+    //as per your requirement , can add more units here and same unit update in the lengthOptions
   };
 
   onSelectleftValue(value?: boolean) {
