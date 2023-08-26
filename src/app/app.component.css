@@ -1,0 +1,46 @@
+.layout-row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.suffix {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.equal-to{
+    box-shadow: 1px 2px 3px 1px #888;
+    display: flex;
+    width: 60px;
+    height: 25px;
+    margin: 10px;
+    padding: 10px;
+    fill: #888;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.large {
+  width: 100%;
+  height: 30px;
+  font-size: 1rem;
+  padding: 5px;
+  border: 2px solid rgb(126, 125, 125);
+  border-radius: 5px;
+}
+select {
+  width: 250px;
+  height: 40px;
+  font-size: 16px;
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 0 transparent;
+  border: 0;
+  border-radius: 0;
+  background-color: #f3f7f7;
+  color: #0e141e;
+  outline: none;
+  padding: 0 12px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.1s ease-in-out;
+}
